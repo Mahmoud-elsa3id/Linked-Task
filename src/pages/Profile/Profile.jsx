@@ -7,7 +7,6 @@ import Cardpost from "../../components/shared/cardpost/Cardpost";
 import { useParams } from "react-router-dom";
 import { BaseUrl } from "../../env/env.environment";
 import Createpost from "../../components/shared/createPost/Createpost";
-import { Helmet } from "react-helmet";
 
 
 
@@ -40,10 +39,7 @@ export default function Profile() {
 
   return (
     <>
-     <Helmet>
-          <title>Profile</title>
-        </Helmet>
-   
+    
       {userData ? <div className="h-full bg-gray-200 p-8">
   <div className="bg-white rounded-lg shadow-xl pb-8">
    

@@ -1,4 +1,3 @@
-import { Helmet } from 'react-helmet'
 import Posts from '../../components/posts/Posts'
 import Createpost from '../../components/shared/createPost/Createpost'
 import {useNetworkState} from 'react-use'
@@ -8,9 +7,7 @@ export default function Home() {
   return (
     <>
    
-    <Helmet>
-      <title>Home</title>
-    </Helmet>
+    
 
      {online &&(
      <>
